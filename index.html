@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Thube | Data Analytics & Developer Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #38bdf8;
+            --accent-hover: #0284c7;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding-bottom: 50px;
+        }
+
+        header {
+            max-width: 900px;
+            margin: 60px auto 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+
+        h1 span {
+            color: var(--accent-color);
+        }
+
+        p.subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: #0f172a;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .btn-outline {
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            background-color: var(--card-bg);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background-color: #0f172a;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .project-card, .edu-item {
+            margin-bottom: 20px;
+        }
+
+        .project-card:last-child, .edu-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+
+        .item-title {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        .item-subtitle {
+            color: var(--accent-color);
+            font-size: 0.95rem;
+        }
+
+        .item-date {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        ul.details {
+            margin-left: 20px;
+            color: var(--text-muted);
+            margin-top: 10px;
+        }
+
+        ul.details li {
+            margin-bottom: 6px;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SHUBHAM <span>THUBE</span></h1>
+        <p class="subtitle">M.Sc. Computer Science | Data Analytics & Python Specialist</p>
+        <div class="contact-links">
+            <a href="mailto:srt9637600168@gmail.com" class="btn btn-primary">Email Me</a>
+            <a href="https://linkedin.com/in/shubham-thube-7b5761251" target="_blank" class="btn btn-outline">LinkedIn</a>
+            <a href="tel:+919637600168" class="btn btn-outline">+91 9637600168</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="color: var(--text-muted);">
+                Motivated M.Sc. Computer Science graduate student with a focus on Data Analytics, computer vision, and Python development. Skilled in leveraging data processing tools and analytical problem-solving to uncover actionable insights, perform real-time data analysis, and support data-driven decision-making.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="tag">Python</span>
+                <span class="tag">Data Cleaning & EDA</span>
+                <span class="tag">Pandas & NumPy</span>
+                <span class="tag">OpenCV & Computer Vision</span>
+                <span class="tag">SQL & DBMS</span>
+                <span class="tag">Data Structures & Algorithms</span>
+                <span class="tag">Git & Version Control</span>
+                <span class="tag">System Troubleshooting</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-card">
+                <div class="item-header">
+                    <span class="item-title">Real-Time Face Mask Detection System</span>
+                    <span class="item-subtitle">Python, OpenCV, Computer Vision</span>
+                </div>
+                <ul class="details">
+                    <li>Built a real-time computer vision application using Python and OpenCV to process live image frames and detect facial mask usage.</li>
+                    <li>Applied digital image processing techniques and machine learning models for accurate, low-latency identification.</li>
+                    <li>Designed modular code structures for effective data preprocessing and real-time output visualization.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education & Certifications</h2>
+            <div class="edu-item">
+                <div class="item-header">
+                    <span class="item-title">Master of Science in Computer Science (M.Sc. CS)</span>
+                    <span class="item-date">2026 | Score: 68.00%</span>
+                </div>
+            </div>
+            <div class="edu-item">
+                <div class="item-header">
+                    <span class="item-title">Bachelor of Science in Computer Science (B.Sc. CS)</span>
+                    <span class="item-date">2024 | Score: 65.17%</span>
+                </div>
+            </div>
+            <div class="edu-item" style="margin-top: 15px;">
+                <div class="item-header">
+                    <span class="item-title">Full Stack Python Developer Certification</span>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 4px;">
+                    Completed training in core Python programming, data structures, control flow, and object-oriented concepts.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Shubham Ramdas Thube. Built with HTML & CSS.</p>
+    </footer>
+
+</body>
+</html>
+
